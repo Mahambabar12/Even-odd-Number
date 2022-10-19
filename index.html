@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Even And Odd Numbers</title>
 </head>
-<body style="background-color: rgb(192, 227, 255);">
-    <h1 style="background-color: rgb(255, 255, 255);">Even & Odd Numbers </h1>
-    <form onsubmit="checkvalue(); return false;">
-
-        <label for="numCheck"><b>Enter Number</b></label><br> <br>
-        <input type="number" name="" id="numCheck" min="1" placeholder="Enter any Number here..">
-        <button id="b-btn" type="submit">Check Value</button>
-    </form>
-    <p style="font-size: xxlarge;" id="result"></p>
+<div>
+    <body style="background-color: rgb(192, 227, 255);">
+        <h1>Even & Odd Numbers </h1>
+        <form onsubmit="checkvalue(); return false;">
+    
+            <label for="numCheck"><h2>Enter Number</h2></label><br>
+            <input type="number" name="" id="numCheck" min="1" placeholder="Enter any Number here..">
+            <br>
+            <br>
+            <button id="b-btn" type="submit">Check Value</button>
+        </form>
+        <h2 id="result"></h2>
+</div>
 
     <script src="./index.js"></script>
 </body>

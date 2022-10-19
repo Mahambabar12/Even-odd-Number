@@ -1,0 +1,17 @@
+div {
+    background-color: rgb(245, 209, 209);
+    width: 300px;
+    border: 15px solid rgb(1, 12, 105);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    /* transform: translate(50px,100px); */
+  }
+  h1{ 
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+h2{ 
+    color: rgb(252, 246, 246);
+    text-shadow: 2px 2px 4px rgb(1, 12, 105);
+}
